@@ -1,0 +1,87 @@
+name: rideshare_zw
+description: P2P Ridesharing App for Zimbabwe — flat $2/day driver subscription.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.5
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # Navigation
+  go_router: ^14.0.0
+
+  # Firebase
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.4
+  google_sign_in: ^6.2.1
+  firebase_messaging: ^15.1.0
+  cloud_firestore: ^5.2.0
+
+  # Google Maps
+  google_maps_flutter: ^2.7.0
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+
+  # HTTP & API
+  dio: ^5.6.0
+  web_socket_channel: ^3.0.0
+  pretty_dio_logger: ^1.4.0
+
+  # UI
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+  smooth_page_indicator: ^1.1.0
+  flutter_rating_bar: ^4.0.1
+  pin_code_fields: ^8.0.1
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  dotted_border: ^2.1.0
+  percent_indicator: ^4.2.3
+  badges: ^3.1.2
+
+  # Payments
+  flutter_stripe: ^10.2.0
+
+  # Communication
+  agora_rtc_engine: ^6.3.2
+
+  # Utilities
+  shared_preferences: ^2.3.0
+  flutter_secure_storage: ^9.2.2
+  intl: ^0.19.0
+  uuid: ^4.4.2
+  permission_handler: ^11.3.1
+  url_launcher: ^6.3.0
+  connectivity_plus: ^6.0.3
+  package_info_plus: ^8.0.2
+  local_auth: ^2.3.0
+  flutter_local_notifications: ^17.2.2
+  image_cropper: ^8.0.2
+  path_provider: ^2.1.4
+  open_file: ^3.5.8
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
